@@ -1,90 +1,20 @@
-# OpenAI.fm
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![NextJS](https://img.shields.io/badge/Built_with-NextJS-blue)
-![OpenAI API](https://img.shields.io/badge/Powered_by-OpenAI_API-orange)
-
-[OpenAI.fm](https://openai.fm) is an interactive demo to showcase the new OpenAI text-to-speech models.
-It is built with NextJS and the [Speech API](https://platform.openai.com/docs/api-reference/audio/createSpeech).
-
-For more information about text-to-speech using the OpenAI API, check out our [documentation](https://platform.openai.com/docs/guides/text-to-speech).
-
-![screenshot](./public/screenshot.jpg)
-
-## How to run
-
-1. **Set up the OpenAI API:**
-
-   - If you're new to the OpenAI API, [sign up for an account](https://platform.openai.com/signup).
-   - Follow the [Quickstart](https://platform.openai.com/docs/quickstart) to retrieve your API key.
-
-2. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/openai/openai-fm.git
-   ```
-
-3. **Set the OpenAI API key:**
-
-   2 options:
-
-   - Set the `OPENAI_API_KEY` environment variable [globally in your system](https://platform.openai.com/docs/libraries#create-and-export-an-api-key)
-   - Set the `OPENAI_API_KEY` environment variable in the project: Create a `.env` file at the root of the project and add the following line (see `.env.example` for reference):
-
-   ```bash
-   OPENAI_API_KEY=<your_api_key>
-   ```
-
-4. **Install dependencies:**
-
-   Run in the project root:
-
-   ```bash
-   npm install
-   ```
-
-5. **(Optional) Connect to a hosted database:**
-
-   If you want to use the sharing feature, you need to connect to a hosted postgres database.
-   You should set the environment variables in a `.env` file at the root of the project to connect to your database as shown in `.env.example`.
-
-   ```bash
-   POSTGRES_URL="postgresql://username:password@host:port/database_name"
-   ```
-
-   This step is not needed to run the application and only affects the sharing feature.
-
-6. **Run the app:**
-
-   ```bash
-   npm run dev
-   ```
-
-   The app will be available at [`http://localhost:3000`](http://localhost:3000).
-
-> [!NOTE]  
-> Be aware that if you deploy this app to a public server, you are responsible for any usage it may incur using your OpenAI API key.
-
-## Contributors
-
-### OpenAI team
-
-- [Tyler Smith](https://github.com/tylersmith-openai)
-- [Karolis Kosas](https://github.com/karoliskosas)
-- [Justin Jay Wang](https://github.com/justinjaywang)
-- [Bobby Stocker](https://github.com/stocker-openai)
-- [Jeff Harris](https://github.com/jeffsharris)
-- [Romain Huet](https://github.com/romainhuet)
-- [David Weedon](https://github.com/weedon-openai)
-- [Iaroslav Tverdokhlib](https://github.com/itv-openai)
-- [Adam Walker](https://github.com/awalker-openai)
-- [Edwin Arbus](https://x.com/edwinarbus)
-- [Katia Gil Guzman](https://github.com/katia-openai)
-
-### Contributing
-
-You are welcome to open issues or submit PRs to improve this app, however, please note that we may not review all suggestions.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+बहुत समय पहले की बात है। ओडिशा राज्य के पवित्र नगर पुरी में, जहाँ समुद्र की लहरें हर समय “हरि… हरि…” का जाप करती थीं, वहाँ एक अत्यंत भक्त पुजारी रहते थे। उनका नाम था पुजारी अनंत। उनका पूरा जीवन भगवान विष्णु की सेवा और भक्ति में बीतता था।
+एक रात, जब पुजारी अनंत ध्यान के बाद गहरी नींद में थे, तभी उन्हें एक अद्भुत स्वप्न आया। स्वप्न में स्वयं भगवान प्रकट हुए। उनके शरीर से दिव्य प्रकाश फैल रहा था। भगवान ने कहा—
+“वत्स, अब समय आ गया है कि तुम मेरे जगन्नाथ स्वरूप का निर्माण करो।
+पर यह कार्य गुप्त होगा।
+जब तक मूर्ति पूरी न हो जाए, अगर कोई तुम्हें देख लेगा, तो तुम्हें प्राण त्यागने पड़ेंगे।”
+पुजारी अनंत ने बिना डर के सिर झुका दिया और प्रभु की आज्ञा स्वीकार कर ली।
+अगले दिन उन्होंने पुरी के समुद्र तट के पास एक निर्जन वन क्षेत्र चुना। वहीं उन्हें एक चमत्कारी नीम की लकड़ी मिली, मानो स्वयं भगवान ने उसे भेजा हो। उसी एकांत स्थान पर वे दिन-रात छुपकर लकड़ी से भगवान जगन्नाथ, बलभद्र और सुभद्रा की मूर्तियाँ बनाने लगे।
+पुरी के लोग हैरान थे—
+“पुजारी अनंत कई दिनों से दिखाई नहीं दे रहे।”
+लेकिन कोई उस रहस्यमय स्थान की ओर जाने की हिम्मत नहीं करता था।
+कई दिनों बाद, पुजारी की पत्नी अत्यंत चिंतित हो गईं। प्रेम और भय से भरे मन के साथ वे चुपके से उस स्थान तक पहुँच गईं। जैसे ही उन्होंने अंदर झाँका, लकड़ी काटने की आवाज़ रुक गई।
+सब कुछ शांत हो गया।
+जब लोग वहाँ पहुँचे, तो पुजारी अनंत वहाँ नहीं थे…
+पर सामने अधूरी, लेकिन दिव्य मूर्तियाँ विराजमान थीं—
+बड़े नेत्र, गोल मुख, बिना हाथ-पाँव, पर भक्तों को अपनाने के लिए तैयार।
+तभी आकाश से दिव्य वाणी गूंजी—
+“भक्त ने वचन निभाया।
+यही मेरा रूप है—
+जगन्नाथ, जो अधूरा होकर भी संपूर्ण है।”
+तभी से पुरी में भगवान जगन्नाथ इसी रूप में पूजे जाने लगे और आज भी उनका स्मरण पूरे संसार में होता है।
